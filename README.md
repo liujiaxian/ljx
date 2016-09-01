@@ -43,7 +43,7 @@ print ("你好，世界！")
     "command":"python",
     "isShellCommand": true,
     //"args": ["-p", "."],
-    "args": ["beautiful.py"],//文件名称
+    "args": ["${file}"],//文件名称
     //"showOutput": "silent",
     "showOutput": "always",
     "problemMatcher": "$tsc"
